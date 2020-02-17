@@ -1,0 +1,139 @@
+.Navbar {
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 5px;
+  font-family: sans-serif;
+  color: white;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 20;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+#div-logo-nav {
+width: 280px;
+height: auto;
+
+}
+
+#logo {
+  width: 280px;
+  height: auto;
+}
+
+.Navbar__Link a {
+ color: black;
+ text-align: center;
+ padding: 15px 15px 10px 15px;
+ text-decoration: none;
+ font-size: 1em;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+}
+
+.Navbar__Link a:hover {
+
+  color: rgb(198, 68, 130);
+  border-bottom: 3px solid rgb(198, 68, 130);
+
+}
+
+.Navbar__Link-whatsapp {
+    display: none;
+
+   }
+
+
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+
+.Navbar__Items {
+    display:none;
+  }
+
+.Navbar__Items--right {
+    margin-left:0;
+  }
+
+.Navbar__ToggleShow {
+    display: flex;
+  }
+
+.Navbar__Link-toggle {
+    align-self: end;
+    justify-content: center;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 1.7em;
+    top: 25px;
+    right: 10px;
+   }
+.Navbar__Link-whatsapp {
+    align-self: end;
+    justify-content: center;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(47, 179, 80);
+    font-size: 1.7em;
+    top: 25px;
+    right: 50px;
+
+   }
+
+   .Navbar__Link {
+
+    padding: 10px;
+  }
+
+  .Navbar__Link a:hover {
+
+    color: rgb(198, 68, 130);
+  }
+
+  .Navbar {
+    background-color: #f1f1f1;
+    display: flex;
+    padding: 10px;
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    height: auto;
+
+  }
+
+  #div-logo-nav {
+  width: 220px;
+  height: auto;
+
+  }
+
+  #logo {
+    width: 220px;
+    height: auto;
+  }
+
+
+}
